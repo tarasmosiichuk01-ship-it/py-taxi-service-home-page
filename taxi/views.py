@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
-from .models import Manufacturer, Driver, Car
+
+from taxi.models import Manufacturer, Driver, Car
 
 
 def index(request: HttpRequest) -> HttpResponse:
